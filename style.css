@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #12a662;
+    --secondary-color: #e0efe8;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 380px;
+  margin: auto;
+  border: 1px solid grey;
+  background-color: #f6f6f6;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+main{  
+    padding: 0px 20px;
+    position: relative;
+    top: -120px;
+}
+
+.edit-icon {
+    height: 12px;
+}
+
+.edit-text {
+    font-size: 12px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+.name {
+    font-size: 12px;
+    line-height: 0.8;
+}
+
+.phone-no {
+    font-size: 14px;
+    line-height: 0.8;
+}
+
+.number {
+    color: var(--primary-color);
+    line-height: 0.8;
+}
+
+.address {
+    font-size: 12px;
+    line-height: 0.8;
+}
+
+.delivery-btn {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    border-radius: 5px;
+    margin: 3px; 
+    padding: 6px;
+    font-weight: bold;
+}
+
+.edit-Text {
+    padding-left: 140px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.description-box {
+    font-size: 12px;
+    border:1px solid rgb(200, 198, 198);
+    border-radius: 5px;
+    color: grey;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.payment-box {
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.payment-heading {
+    font-size: 14px;
+    line-height: 0;
+}
+
+.payment-subheading {
+    font-size: 12px;
+    color: #065f46;
+    line-height: 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--primary-color);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px var(--primary-color);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .toggle-button {
+    text-align: right;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .icon-caption {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  .active {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  hr {
+    width: 60px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+
+  .footer-div {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 20px;
+    
+  }
+
+  .img-slider img{
+    height: 220px;
+    width: 380px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin: auto 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    top: -160px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .shop-id {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    top: -40px;
+  }
+
+  .id {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  .edit {
+    color: var(--primary-color);
+    font-size: 12px;
+    background: rgba(76, 175, 80, 0.1);
+    border: none;
+    border-radius: 5px;
+    margin: 3px; 
+    padding: 6px;
+    position: relative;
+    top: -210px;
+    left: 280px;
+  }
+
+  .edit img {
+    height: 12px;
+  }
+
+  .back-icon {
+    height: 20px;
+    position: relative;
+    top: -210px;
+    left: 20px;
+  }
